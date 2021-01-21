@@ -4,11 +4,11 @@ const jokeBtn = document.getElementById('jokeBtn')
 // jokeBtn.addEventListener('click', generateJoke)
 generateJoke()
 
-// USING ASYNC/AWAIT
+// USING ASYNC/AWAIT fhljlgjhcjh
 async function generateJoke() {
   const config = {
     headers: {
-      Accept: ' application/json',
+      Accept: 'application/json',
     },
   }
   const res = await fetch('https://icanhazdadjoke.com', config)
